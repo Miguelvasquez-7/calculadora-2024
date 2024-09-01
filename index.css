@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+    background-image: url(logo\ vasquez.jpg);
+}
+
+#calculadora {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	text-align: center;
+}
+
+#entrada {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+#entrada input[type="text"],
+#entrada input[type="number"],
+#entrada select {
+	width: 25%;
+	height: 30px;
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#entrada button[type="button"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#entrada button[type="button"]:hover {
+	background-color: #3e8e41;
+	transform: rotate(360deg);
+	transition: all 0.5s ease-in-out;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#lista-productos {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.producto {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.producto span {
+	font-weight: bold;
+}
+
+#total {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #00698f;
+}
+
+#captura-pantalla,
+#limpiar {
+	background-color: #FFC107;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#captura-pantalla:hover,
+#limpiar:hover {
+	background-color: #FF9800;
+	transform: rotate(360deg);
+	transition: all 0.5s ease-in-out;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
